@@ -1,4 +1,4 @@
-/* General Styling */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ body {
     color: #333;
 }
 
-/* Navigation */
+
 header {
     background-color: #172554;
     color: white;
@@ -47,7 +47,7 @@ nav a:hover {
     font-weight: bold;
 }
 
-/* Hero Banner */
+
 .hero {
     text-align: center;
     padding: 60px 20px;
@@ -84,7 +84,7 @@ nav a:hover {
     background-color: #1d4ed8;
 }
 
-/* Categories */
+
 .categories {
     padding: 35px 5%;
     text-align: center;
@@ -117,7 +117,7 @@ nav a:hover {
     background-color: #dbeafe;
 }
 
-/* Product Cards */
+
 .products {
     padding: 35px 5%;
 }
@@ -204,7 +204,7 @@ nav a:hover {
     background-color: #172554;
 }
 
-/* Features */
+
 .features {
     text-align: center;
     padding: 35px 15px;
@@ -216,7 +216,7 @@ nav a:hover {
     margin-bottom: 15px;
 }
 
-/* Footer */
+
 footer {
     background-color: #172554;
     color: white;
@@ -225,8 +225,8 @@ footer {
     line-height: 1.8;
 }
 
-/* Responsive Design */
-@media (max-width: 600px) {
+
+
     header {
         flex-direction: column;
         text-align: center;
@@ -244,4 +244,3 @@ footer {
     .product-container {
         grid-template-columns: 1fr;
     }
-}
