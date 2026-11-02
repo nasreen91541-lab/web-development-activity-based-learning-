@@ -139,12 +139,10 @@ nav a:hover {
     text-align: center;
     border-radius: 12px;
     box-shadow: 0 4px 12px #00000012;
-    transition: transform 0.3s;
+    
 }
 
-.product-card:hover {
-    transform: translateY(-6px);
-}
+
 
 .product-card img {
     width: 100%;
