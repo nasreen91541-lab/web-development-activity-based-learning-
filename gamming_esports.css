@@ -105,13 +105,10 @@ section {
     overflow: hidden;
     text-align: center;
     padding-bottom: 22px;
-    transition: transform 0.3s;
     border: 1px solid #303b50;
 }
 
-.card:hover {
-    transform: translateY(-7px);
-}
+
 
 .card img {
     width: 100%;
@@ -206,8 +203,7 @@ footer {
     }
 }
 
-/* Mobile screens */
-@media (max-width: 550px) {
+
     header h1 {
         font-size: 25px;
     }
@@ -229,4 +225,3 @@ footer {
     .hero p {
         font-size: 16px;
     }
-}
