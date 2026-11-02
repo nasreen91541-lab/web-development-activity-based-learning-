@@ -73,7 +73,7 @@ nav a:hover {
     border-radius: 25px;
     font-weight: bold;
     border: none;
-    cursor: pointer;
+    
 }
 
 .btn:hover {
@@ -105,12 +105,10 @@ nav a:hover {
     padding: 15px;
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(80, 35, 45, 0.12);
-    transition: transform 0.3s;
+    
 }
 
-.product-card:hover {
-    transform: translateY(-6px);
-}
+
 
 .product-card img {
     width: 100%;
@@ -172,15 +170,12 @@ footer {
     padding: 18px;
 }
 
-/* Tablet screens */
-@media (max-width: 900px) {
+
     .product-container {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
-}
 
-/* Mobile screens */
-@media (max-width: 500px) {
+
     header h1 {
         font-size: 24px;
     }
@@ -202,4 +197,3 @@ footer {
     .product-card img {
         height: 220px;
     }
-}
